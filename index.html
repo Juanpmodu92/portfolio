@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>JM Desarrollo Web</title>
+</head>
+
+<body>
+    <!-- SECCION DE INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/JM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links" class="">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- ICONO DEL MENU RESPONSIVE -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Icono ed las redes sociales -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Juan Pablo Moreno</span>, Desarrollador Web</h2>
+                <p class="descripcion">Desarrollador Full Stack con experiencia en front-end y back-end, creando aplicaciones web eficientes y escalables.</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/1007141981.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Juan Pablo Moreno</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Con un enfoque principal en el front-end, pero también disfruto 
+                trabajando en el back-end. Manejo bases de datos SQL y tengo experiencia en diversos 
+                lenguajes de programación, incluyendo PHP, JavaScript, TypeScript, C++, y Python.</p>
+            <p>Tengo habilidades avanzadas en CSS y HTML, utilizo frameworks y bibliotecas como 
+                Node.js, React, Angular y Bootstrap. Además, tengo experiencia en el uso de herramientas 
+                de diseño como Figma y soy competente en el manejo de sistemas de control de versiones 
+                con Git y GitHub.</p>
+            <p>Estoy certificado como SFPC en Scrum y tengo habilidades destacadas en el trabajo en 
+                equipo. Soy una persona innovadora, muy proactiva, práctica, productiva y ordenada. Estoy 
+                preparado para dar todo de mí en cada proyecto.</p>
+            <a href="#">Decargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptas alias? Assumenda saepe voluptatem neque quam porro iusto, id at aspernatur quaerat illo omnis perspiciatis veniam maiores ad temporibus? Aliquam.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptas alias? Assumenda saepe voluptatem neque quam porro iusto, id at aspernatur quaerat illo omnis perspiciatis veniam maiores ad temporibus? Aliquam.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptas alias? Assumenda saepe voluptatem neque quam porro iusto, id at aspernatur quaerat illo omnis perspiciatis veniam maiores ad temporibus? Aliquam.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptas alias? Assumenda saepe voluptatem neque quam porro iusto, id at aspernatur quaerat illo omnis perspiciatis veniam maiores ad temporibus? Aliquam.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptas alias? Assumenda saepe voluptatem neque quam porro iusto, id at aspernatur quaerat illo omnis perspiciatis veniam maiores ad temporibus? Aliquam.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptas alias? Assumenda saepe voluptatem neque quam porro iusto, id at aspernatur quaerat illo omnis perspiciatis veniam maiores ad temporibus? Aliquam.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso1" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso2" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">60%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso3" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">45%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso4" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <dev class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto1.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripción del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto2.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripción del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto3.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripción del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+        </dev>
+        <dev class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto4.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripción del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto5.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripción del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto6.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripción del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+        </dev>
+        <dev class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto7.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripción del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto8.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripción del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto9.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripción del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+        </dev>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <h3 class="titulo-seccion">Contactanos Ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje ..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>© 2025 J&P. Todos Los Derechos Reservados</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
