@@ -277,8 +277,14 @@ html {
     margin-bottom: 10px;
 }
 
+#servicios .fila .servicio li {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff5080;
+}
+
 #servicios .fila .servicio p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 22px;
 }
 
@@ -348,6 +354,33 @@ html {
     animation: progreso4 2s forwards;
 }
 
+.contenedor-skills .skill .barra-progreso5 {
+    background-color: #fff;
+    width: 68;
+    height: 6px;
+    animation: progreso5 2s forwards;
+}
+
+.contenedor-skills .skill .barra-progreso6 {
+    background-color: #fff;
+    width: 65;
+    height: 6px;
+    animation: progreso6 2s forwards;
+}
+
+.contenedor-skills .skill .barra-progreso7 {
+    background-color: #fff;
+    width: 63;
+    height: 6px;
+    animation: progreso7 2s forwards;
+}
+
+.contenedor-skills .skill .barra-progreso8 {
+    background-color: #fff;
+    width: 45;
+    height: 6px;
+    animation: progreso8 2s forwards;
+}
 @keyframes progreso1 {
     0% {
         width: 0;
@@ -362,7 +395,7 @@ html {
         width: 0;
     }
     100% {
-        width: 70%;
+        width: 85%;
     }
 }
 
@@ -371,7 +404,7 @@ html {
         width: 0;
     }
     100% {
-        width: 60%;
+        width: 75%;
     }
 }
 
@@ -380,10 +413,45 @@ html {
         width: 0;
     }
     100% {
-        width: 45%;
+        width: 70%;
     }
 }
 
+@keyframes progreso5 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 68%;
+    }
+}
+
+@keyframes progreso6 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes progreso7 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 63%;
+    }
+}
+
+@keyframes progreso8 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 45%;
+    }
+}
 /* S E C C I Ó N   P O R T F O L I O*/
 
 #portfolio {
